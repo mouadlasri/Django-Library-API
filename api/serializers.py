@@ -6,4 +6,4 @@ class BookSerializer(serializers.ModelSerializer):
         model = Book
 
         # database fields we want to expose
-        fields = ('title', 'subtitle', 'author', 'isbn')
+        fields = ['title', 'author', 'isbn']
